@@ -1,11 +1,13 @@
+import '../../style/general.css'
+import './footertop.css'
 function FooterTop() {
     return ( 
-        <div class="footer-top">
-        <div class="newsletter-section">
-          <div class="newsletter-widget">
-            <div class="signup-text">
+        <div className="footer-top">
+        <div className="newsletter-section flex-row center-column ">
+          <div className="newsletter-widget flex-row">
+            <div className="signup-text flex-row">
               <img
-                class="lazy loaded"
+                className="lazy loaded"
                 data-lazy="https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.81/img/newsletter-icon.svg"
                 alt="Sign up"
                 src="https://d3ogvdx946i4sr.cloudfront.net/assets/v2.25.81/img/newsletter-icon.svg"
@@ -15,20 +17,17 @@ function FooterTop() {
                 newsletter
               </p>
             </div>
-            <div class="newsletter-form">
-              <form action="/newsletter/add">
-                <div class="form-group">
+            <div className="newsletter-form">
+              <form className='footer-top flex-row'>
+                <div className="form-group">
                   <input
                     type="email"
-                    class="form-control"
+                    className="footer-top__email form-control"
                     placeholder="Email address"
-                    aria-label="Email address for newsletter subscription"
-                    name="newsletterEmailAddress"
-                    spellcheck="false"
                   />
                 </div>
-                <div class="form-group">
-                  <button type="submit" class="btn btn-primary">
+                <div className="form-group">
+                  <button type="submit" className="btn footer-top_btn_email btn-primary">
                     Sign up now
                   </button>
                 </div>

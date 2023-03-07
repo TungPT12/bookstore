@@ -1,0 +1,78 @@
+.footer-top {
+    width: 100%;
+}
+
+.newsletter-section {
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+    padding: 5px 1px;
+    margin: 5px;
+    text-align: center;
+    margin: 5px 0 2px 0;
+}
+
+.newsletter-widget {
+    width: 783.475px;
+}
+
+.newsletter-section .newsletter-widget .signup-text {
+    max-height: 70px;
+    padding: 5px;
+}
+
+.newsletter-section .newsletter-widget div p {
+    padding: 0 10px;
+    max-width: 250px;
+    text-align: left;
+    margin: auto;
+    font-size: 14px;
+}
+
+.newsletter-section .newsletter-widget .signup-text .lazy.loaded{
+    height: 60px;
+    width: 50px;
+}
+
+.newsletter-form {
+    max-height: 70px;
+    padding: 5px;
+}
+
+.newsletter-form .footer-top {
+    height: 100%;
+}
+
+.newsletter-form .form-group {
+    display: inline-flex;
+    max-height: 100%;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.footer-top__email {
+    padding: 0 17px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-top__email,
+.footer-top_btn_email {
+    width: 220px;
+}
+
+.footer-top_btn_email {
+    font-weight: 700;
+    color: #fff;
+    border-radius: 6px;
+    background: #10bbd5;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-top_btn_email:hover {
+    background: #62ccdc;
+}
