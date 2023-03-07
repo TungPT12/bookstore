@@ -42,6 +42,11 @@ footer li a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-end-wrap a:hover,
+footer li a:hover {
+  text-decoration: underline;
+}
+
 .footer-end-wrap .footer-end-links ul {
   margin: 0;
   padding: 0;
