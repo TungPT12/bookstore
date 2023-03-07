@@ -10,6 +10,7 @@ import {
     faShoppingBasket,
     faAngleDown,
     faAngleUp,
+    faExclamationCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import './icon.css'
 
@@ -54,6 +55,10 @@ const AngleUpIcon = () => {
     return <FontAwesomeIcon className="max-size" icon={faAngleUp} />
 }
 
+const ExclamationCircleIcon = () => {
+    return <FontAwesomeIcon className="max-size" icon={faExclamationCircle} />
+}
+
 
 const MessagesIcon = ({ height = '3.1rem', width = '3.1rem', className }) => {
     return (
@@ -88,4 +93,5 @@ export {
     SearchIcon,
     AngleDownIcon,
     AngleUpIcon,
+    ExclamationCircleIcon,
 }

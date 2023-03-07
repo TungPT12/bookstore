@@ -5,6 +5,9 @@ import Header from './components/Header/header';
 import HomePage from './view/HomePage/homepage';
 import ProductPage from './view/ProductPage/productpage';
 import SecondHeader from './components/SecondHeader/secondheader';
+import ProductDetailPage from './view/ProductDetailPage/productdetailpage';
+import LoginPage from './view/LoginPage/loginpage';
+import Footer from './view/Footer/footer';
 function App() {
   return (
     <Router>
@@ -13,10 +16,11 @@ function App() {
       <Header/>    
       <SecondHeader/> 
         <Routes>
-          <Route path='/' element={<HomePage/>} />
+          <Route path='/' element={<LoginPage/>} />
           <Route path='/product' element={<ProductPage/>} />
+          <Route path='/product/productDetail/:id' element={<ProductDetailPage/>} />
         </Routes>
-      
+      <Footer/>
     </div>
     </Router>
 

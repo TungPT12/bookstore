@@ -1,0 +1,149 @@
+.half {
+    width: 50% !important;
+}
+
+.block-wrap {
+    padding: 15px 30px;
+}
+
+#a-page {
+    width: 100%;
+}
+
+.a-container {
+    min-width: 200px;
+    padding: 6px 15px 0;
+    margin: 0 auto;
+}
+
+.auth-pagelet-mobile-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.a-text-left {
+    margin-bottom: 13px;
+}
+
+.a-spacing-top-small {
+    margin-top: 0.9rem!important;
+}
+
+.a-spacing-micro {
+    margin-bottom: 0.4rem!important;
+}
+
+.login-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.a-text-right {
+    text-align: right!important;
+}
+
+.a-spacing-base {
+    margin-bottom: 13px!important;
+}
+
+.text-color-444 {
+    color: #444;
+}
+
+.a-spacing-medium, .a-ws .a-ws-spacing-medium {
+    margin-bottom: 17px!important;
+}
+
+.a-spacing-top-micro {
+    margin-top: 4px!important;
+}
+
+
+.a-input-text-group .a-input-text-wrapper {
+    border-radius: 2px;
+    box-shadow: none;
+    border-top-color: #ddd;
+    border-right-color: #ccc;
+    border-bottom-color: #ccc;
+    border-left-color: #ccc;
+    margin-top: -1px;
+    position: relative;
+}
+
+
+
+.a-input-text, .a-input-text-wrapper, .a-select-multiple {
+    border: 1px solid #ccc;
+    border-top-color: #ccc;
+    border-radius: 0;
+}
+
+.a-input-text-wrapper input {
+    height: 43px;
+    width: 100%;    
+    padding: 0 11px;
+    margin: 2px 0 0;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.a-ws div.a-column, div.a-column {
+    margin-right: 5%;
+    min-height: 1px;
+    overflow: visible;
+}
+
+#auth-show-password-checkbox-container,
+#keep-sign-in {
+    position: relative;
+    padding: 6px 6px 6px 40px;
+}
+
+.a-control-row label, .a-touch-multi-select label {
+    padding-left: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+.a-checkbox.a-touch-checkbox input, .a-radio.a-touch-radio input {
+    left: 40px;
+}
+
+.a-checkbox.a-checkbox-fancy input, .a-radio.a-radio-fancy input {
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    z-index: 10;
+}
+
+.a-checkbox-fancy input {
+    height: 23px;
+    width: 23px;
+}
+
+.a-button-input {
+    height: 45.6px;
+    background-color: #10bbd5;
+    color: transparent;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.a-button-input:hover{
+    background-color: #10cae7b3;
+}
+
+
