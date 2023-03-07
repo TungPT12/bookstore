@@ -6,17 +6,10 @@ function LoginForm() {
       <div className="a-page">
         <div className="a-container">
           <div className="a-section auth-pagelet-mobile-container">
-            <form
-              id="signin-embedded-layout"
-              name="signIn"
-              method="post"
-              target="_top"
-              className="auth-validate-form auth-clearable-form"
-            >
+            <form id="signin-embedded-layout" className="auth-validate-form auth-clearable-form">
               <h1 className="a-spacing-micro a-spacing-top-small a-text-left login-title ">
                 Sign in
               </h1>
-
               <div className="a-section a-spacing-base a-text-right">
                 <a
                   id="auth-fpp-link-bottom"
@@ -37,32 +30,20 @@ function LoginForm() {
                   />
                 </div>
 
-                <div id="ap_email_icon" className="auth-clear-icons">
+                {/* <div id="ap_email_icon" className="auth-clear-icons">
                   <i
                     className="a-icon a-icon-close"
                     role="img"
                     aria-label="Clear email text field, button"
                   ></i>
-                </div>
-                <div
-                  id="auth-password-container"
-                  className="a-input-text-wrapper auth-password-container auth-password auth-fill-password"
-                >
-                  <input
-                    type="password"
-                    maxlength="1024"
-                    id="ap_password"
-                    placeholder="Book Depository password"
-                    name="password"
-                  />
+                </div> */}
+                <div id="auth-password-container" className="a-input-text-wrapper auth-password-container auth-password auth-fill-password">
+                  <input type="password" id="ap_password" placeholder="Book Depository password" />
                 </div>
               </div>
               <div className="a-row">
                 <div className="a-column a-span12 a-spacing-medium">
-                  <div
-                    id="auth-show-password-checkbox-container"
-                    className="a-checkbox a-checkbox-fancy a-control-row a-touch-checkbox auth-show-password-checkbox"
-                  >
+                  <div id="auth-show-password-checkbox-container" className="a-checkbox a-checkbox-fancy a-control-row a-touch-checkbox auth-show-password-checkbox">
                     <label for="auth-show-password-checkbox">
                       <input id="auth-show-password-checkbox" type="checkbox" />
                       <i className="a-icon a-icon-checkbox"></i>
@@ -93,7 +74,6 @@ function LoginForm() {
             </form>
           </div>
         </div>
-
         <div className="kmsi-help-message-wrapper">
           <div className="kmsi-help-message">
             <a href="/help/topic/HelpId/77/Keep-Me-Signed-In">Learn more</a>{' '}
