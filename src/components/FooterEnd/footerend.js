@@ -1,5 +1,6 @@
 import '../../style/general.css';
 import './footerend.css';
+import { Link } from 'react-router-dom'
 
 function FooterEnd() {
   return (
@@ -10,23 +11,23 @@ function FooterEnd() {
             <h4>Explore</h4>
             <ul>
               <li>
-                <a rel="nofollow" href="/about-us" className=''>
+                <Link to="/about-us" className=''>
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/sitemap">Sitemap</a>
+                <Link to="/sitemap">Sitemap</Link>
               </li>
               <li>
-                <a href="/bookmarks">Bookmarks</a>
+                <Link to="/bookmarks">Bookmarks</Link>
               </li>
               <li>
-                <a href="/blog">Book Blog</a>
+                <Link to="/blog">Book Blog</Link>
               </li>
               <li>
-                <a href="/account/login/to/account" className="footer-sign-in-link">
+                <Link to="/account/login/to/account" className="footer-sign-in-link">
                   Sign in/Join
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -34,38 +35,38 @@ function FooterEnd() {
             <h4>How can we help?</h4>
             <ul>
               <li>
-                <a rel="nofollow" href="/help">
+                <Link rel="nofollow" to="/help">
                   Help
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contactus">Contact us</a>
+                <Link to="/contactus">Contact us</Link>
               </li>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/2/When-will-my-order-arrive#helpContent"
+                  to="/help/topic/HelpId/2/When-will-my-order-arrive#helpContent"
                 >
                   Where's my stuff?
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/3/Which-countries-do-you-deliver-to#helpContent"
+                  to="/help/topic/HelpId/3/Which-countries-do-you-deliver-to#helpContent"
                 >
                   Where do you deliver?
-                </a>
+                </Link>
               </li>
               <li>
-                <a rel="nofollow" href="/cancelorder">
+                <Link rel="nofollow" to="/cancelorder">
                   Cancel my order
-                </a>
+                </Link>
               </li>
               <li>
-                <a rel="nofollow" href="/help/topic/HelpId/30#helpContent">
+                <Link rel="nofollow" to="/help/topic/HelpId/30#helpContent">
                   Return my order
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -73,10 +74,10 @@ function FooterEnd() {
             <h4>Join us</h4>
             <ul>
               <li>
-                <a href="/affiliate">Affiliates</a>
+                <Link to="/affiliate">Affiliates</Link>
               </li>
               <li>
-                <a href="/jobs">Jobs</a>
+                <Link to="/jobs">Jobs</Link>
               </li>
             </ul>
           </section>
@@ -84,46 +85,46 @@ function FooterEnd() {
             <h4>Important stuff</h4>
             <ul>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/Complaints#helpContent"
+                  to="/help/topic/HelpId/Complaints#helpContent"
                 >
                   Complaints
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/53/How-we-use-cookies#helpContent"
+                  to="/help/topic/HelpId/53/How-we-use-cookies#helpContent"
                 >
                   Cookies
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/20/Our-privacy-policy#helpContent"
+                  to="/help/topic/HelpId/20/Our-privacy-policy#helpContent"
                 >
                   Privacy policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   rel="nofollow"
-                  href="/help/topic/HelpId/19/Terms-and-Conditions#helpContent"
+                  to="/help/topic/HelpId/19/Terms-and-Conditions#helpContent"
                 >
                   Terms &amp; Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   id="bd_uk_modern_slavery_statement-desktop"
                   rel="nofollow noopener noreferrer"
-                  href="https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=202151760"
+                  to="https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=202151760"
                   target="_blank"
                 >
                   UK Modern Slavery Statement
-                </a>
+                </Link>
               </li>
             </ul>
           </section>
@@ -146,7 +147,7 @@ function FooterEnd() {
               title="BdiMetadata{webserver='web-bdi-2022-4', requestTime='0.03 sec', userSessionCurrencyCode='USD', userSessionCountry='VN', userIp='1.52.165.191', cacheParams=BdiCacheMetadata{cacheCountry='null', cacheCurrency='null', controllerName='null', actionName='null', moduleName='null', serverScheme='null', cacheNamespace='null', cacheKey='null', generatedOn=Tue Mar 07 03:00:28 UTC 2023, cacheEnabled=true}}"
             >
               © 2023&nbsp; The Book Depository Ltd.UK.
-              <br />
+              <br/>
               Registered company number: 5124926
             </div>
           </div>

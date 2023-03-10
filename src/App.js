@@ -16,9 +16,11 @@ function App() {
       <Header/>    
       <SecondHeader/> 
         <Routes>
-          <Route path='/' element={<LoginPage/>} />
+          <Route path='/' element={<HomePage/>} />
+          <Route path='/login' element={<LoginPage/>} />
           <Route path='/product' element={<ProductPage/>} />
           <Route path='/product/productDetail/:id' element={<ProductDetailPage/>} />
+          <Route path='/payment/guest' element={<ProductDetailPage/>} />
         </Routes>
       <Footer/>
     </div>

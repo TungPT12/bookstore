@@ -1,0 +1,27 @@
+.wrapper-home_content {
+    padding: 5px 25px 10px 25px;
+    max-width: 1440px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapper-home_content .slidebar_homepage img {
+    width: 273px;
+    display: block;
+}
+
+.slidebar_homepage {
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 273px;
+    padding: 0 5px 0 0;
+    overflow: hidden;
+}
+
+.main-content_homepage {
+    background-color: black;
+    width: 800px;
+}
