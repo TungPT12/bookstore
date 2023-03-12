@@ -39,3 +39,11 @@ li {
 .border-left-1 {
     border-left: 1px solid #cacaca;
 }
+
+.black-text {
+    color: #000;
+}
+
+.display-none {
+    display: none;
+}

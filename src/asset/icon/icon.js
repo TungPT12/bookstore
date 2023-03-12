@@ -12,6 +12,8 @@ import {
     faAngleUp,
     faExclamationCircle,
     faF,
+    faAngleLeft,
+    faAngleRight
 } from '@fortawesome/free-solid-svg-icons';
 import './icon.css'
 
@@ -54,6 +56,12 @@ const AngleDownIcon = () => {
 
 const AngleUpIcon = () => {
     return <FontAwesomeIcon className="max-size" icon={faAngleUp} />
+}
+const AngleLeftIcon = () => {
+    return <FontAwesomeIcon className="max-size" icon={faAngleLeft} />
+}
+const AngleRightIcon = () => {
+    return <FontAwesomeIcon className="max-size" icon={faAngleRight} />
 }
 
 const ExclamationCircleIcon = () => {
@@ -99,4 +107,6 @@ export {
     AngleUpIcon,
     ExclamationCircleIcon,
     FacebookIcon,
+    AngleLeftIcon,
+    AngleRightIcon,
 }

@@ -4,24 +4,21 @@
     box-sizing: border-box;
     position: relative;
     margin: 0 auto;
-    overflow: hidden;
 }
 
-.wrapper-home_content .slidebar_homepage img {
+
+
+.sliderimg_homepage {
+    position: relative;
     width: 273px;
-    display: block;
+    overflow: hidden;
 }
 
 .slidebar_homepage {
-    align-items: center;
     position: relative;
-    display: flex;
-    width: 273px;
     padding: 0 5px 0 0;
-    overflow: hidden;
 }
 
 .main-content_homepage {
-    background-color: black;
-    width: 800px;
+    width: 1112px;
 }
