@@ -13,7 +13,9 @@ import {
     faExclamationCircle,
     faF,
     faAngleLeft,
-    faAngleRight
+    faAngleRight,
+    faStar,
+    faStarHalf,
 } from '@fortawesome/free-solid-svg-icons';
 import './icon.css'
 
@@ -72,6 +74,14 @@ const FacebookIcon = () => {
     return <FontAwesomeIcon className="max-size" icon={faF} />
 }
 
+const StarIcon = () => {
+    return <FontAwesomeIcon className="max-size" icon={faStar} />
+}
+
+const StarHalfIcon = () => {
+    return <FontAwesomeIcon className="max-size" icon={faStarHalf} />
+}
+
 const MessagesIcon = ({ height = '3.1rem', width = '3.1rem', className }) => {
     return (
         <svg
@@ -109,4 +119,6 @@ export {
     FacebookIcon,
     AngleLeftIcon,
     AngleRightIcon,
+    StarIcon,
+    StarHalfIcon,
 }

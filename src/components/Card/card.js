@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import '../../style/general.css'
 import './card.css'
+import { StarIcon, StarHalfIcon } from "../../asset/icon/icon";
 function CardBook({ src }) {
   return (
     <div className="book-item">
@@ -22,12 +23,13 @@ function CardBook({ src }) {
             </Link>
           </span>
         </p>
-        <div className="rating-wrap">
-          <div className="stars">
-            <span className="star full-star">dd</span>
-            <span className="star full-star">d</span>
-            <span className="star full-star">d</span>
-            <span className="star half-star">d</span>
+        <div className="rating-wrap ">
+          <div className="stars flex-row center-row">
+            <i className="star full-star"><StarIcon/></i>
+            <i className="star full-star"><StarIcon/></i>
+            <i className="star full-star"><StarIcon/></i>
+            <i className="star full-star"><StarIcon/></i>
+            <i className="star half-star"><StarHalfIcon/></i>
           </div>
         </div>
         <div className="price-wrap ">

@@ -65,3 +65,16 @@
 .book-item .price .sale-price {
     color: #ff0072;
 }
+
+.rating-wrap .stars {
+    width: 70px;
+    height: 14px;
+}
+
+.rating-wrap .stars .star {
+    display: flex;
+    color: #fed221;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+}
