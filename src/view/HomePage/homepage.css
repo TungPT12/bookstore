@@ -1,0 +1,24 @@
+.wrapper-home_content {
+    padding: 5px 25px 10px 25px;
+    max-width: 1440px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.sliderimg_homepage {
+    position: relative;
+    width: 273px;
+    overflow: hidden;
+}
+
+.slidebar_homepage {
+    position: relative;
+    padding: 0 5px 0 0;
+}
+
+.main-content_homepage {
+    width: 1112px;
+}

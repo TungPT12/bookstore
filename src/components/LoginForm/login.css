@@ -1,0 +1,33 @@
+#signin-embedded-layout {
+    margin-bottom: 13px
+}
+
+.a-input-text-group {
+    margin-top: 0;
+    border-top-color: #ccc;
+    box-shadow: 0 0.10px 0 rgb(0 0 0 / 7%) inset;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+}
+
+.a-input-text-group .a-input-text-wrapper:focus-within {
+    border-color: #5c5b609d;
+    z-index: 1000;
+}
+
+.a-checkbox.a-checkbox-fancy.a-control-row.a-touch-checkbox {
+    position: relative;
+}
+
+.login-page .kmsi-help-message-wrapper {
+    max-width: 580px;
+    padding-left: 27px;
+    padding-right: 15px;
+}
+
+.login-page .kmsi-help-message {
+    max-width: 400px;
+    margin: auto;
+    font-size: 14px;
+    color: #000
+}

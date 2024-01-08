@@ -1,0 +1,36 @@
+.carousel-wrap {
+    display: block;
+    left: 10px;
+    position: relative;
+}
+.carousel-container {
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.carousel-container .carousel-title {
+    padding-bottom: 5px;
+}
+
+.carousel-wrap .tab{
+    display: block;
+    width: 100%;
+}
+
+.card-item {
+    min-width: 175px;
+    padding: 5px 20px;
+    margin: 0px 7px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    overflow: hidden;
+  }
+
+
+
