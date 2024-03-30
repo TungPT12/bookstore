@@ -1,0 +1,12 @@
+.a-box-inner.a-alert-container {
+    position: relative;
+    padding: 6px 6px 6px 0px ;
+    margin-top: 4px;
+}
+
+.a-icon-alert {
+    padding-right: 5px;
+    height: 14px;
+    width: 14px;
+    color: #444;
+}

@@ -1,0 +1,26 @@
+.footer-social-wrap {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.icon-social {
+    display: block;
+    height: 21px;
+    width: 18px;
+    padding: 10px 15px 0;
+    color: #999;
+    font-size: 13px;
+}
+
+.footer-social-wrap h4 {
+    color: #999;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.icon-fb:hover {
+    color: #3B5998;
+}

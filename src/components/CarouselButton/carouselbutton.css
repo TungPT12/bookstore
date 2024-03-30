@@ -1,0 +1,25 @@
+.carousel-bt-next, 
+.carousel-bt-prev {
+    background-color: #fff;
+    width: 35px;
+    opacity: .6;
+    z-index: 10;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+.carousel-bt-next {
+    right: 0px;
+}
+
+.carousel-bt-prev i,
+.carousel-bt-next i {
+    height: 40px;
+    display: block;
+    width: 100%;
+}

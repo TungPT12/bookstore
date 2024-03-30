@@ -1,0 +1,12 @@
+.descrption-slider-auto {
+  z-index: 100;
+  width: 100%;
+  top: 700px;
+  position: absolute;
+}
+
+.img-slider-auto {
+  width: 273px !important;
+  display: block;
+  /* height: 700px !important; */
+}

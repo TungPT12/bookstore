@@ -1,0 +1,14 @@
+.content-wrap__login {
+    max-width: 1440px;
+    padding: 5px 25px 10px 25px;
+   margin: 0 39.6px;
+}
+
+.login-page {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+full-width {
+    width: 100%;
+}   

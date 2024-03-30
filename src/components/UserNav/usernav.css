@@ -1,0 +1,80 @@
+.user-nav-wrap {
+  height: 44px;
+  width: 100%;
+  background-color: #403042;
+}
+
+.user-nav {
+  padding: 0px 28px;
+  margin: 0px 39px;
+}
+
+.user-nav__home,
+.user-nav_help,
+.user-nav_orderstatus,
+.user-nav_wishlist,
+.user-nav_user {
+  border-right: 1px solid #4c394e;
+  line-height: 100%;
+  height: 100%;
+}
+
+.home-page__icon {
+  width: 20.4px;
+  padding: 0px 10px;
+  height: 44px;
+  display: block;
+  border-right: 1px solid #4c394e;
+  line-height: 100%;
+  height: 100%;
+  color: rgba(255,255,255,0.8); 
+}
+
+
+
+.user-nav__contact {
+  padding: 0px 10px;
+  border-right: 1px solid #4c394e;
+  line-height: 100%;
+  height: 100%;
+  
+}
+
+.user-nav_contact_icon,
+.user-nav_help_icon,
+.user-nav_orderstatus_icon,
+.user-nav_wishlist_icon,
+.user-nav_user_login,
+.user-nav_user_icon {
+    padding: 0px 10px;  
+    color: rgba(255,255,255,0.8); 
+}
+
+.user-nav_user_login .avatar-header img{
+  width: 160%;
+  margin-right: 3px;
+  border-radius: 50%;
+}
+
+.contact-icon, 
+.icon-info,
+.icon-order-status,
+.icon-wishlist,
+.avatar-header,
+.icon-user {
+  margin-right: 10px;
+  width: 19px;
+  margin-bottom: 2px;
+}
+
+.home-page__icon:hover, 
+.user-nav_contact_icon:hover,
+.user-nav_help_icon:hover,
+.user-nav_orderstatus_icon:hover,
+.user-nav_wishlist_icon:hover,
+.user-nav_user_login:hover,
+.user-nav_user_icon:hover{
+  color: #fff;
+}
+
+
